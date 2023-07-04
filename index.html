@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Minha Página Web</title>
+  <title>Meu Currriculo</title>
+  <!-- Adicionando link para o Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     /* Estilos para o layout */
     body {
@@ -19,11 +21,40 @@
       justify-content: center;
       align-items: center;
     }
-    
-    footer {
-      background-color: #891094;
-      padding: 20px;
-      text-align: center;
+</style>
+<style>
+ /* Estilos para o layout */
+ .menu-icon {
+    padding: 5px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+</style>
+<style>
+    body {
+      margin: 0;
+      padding-bottom: 60px; /* altura dos ícones + espaço */
+    }
+
+    .footer-icons {
+      
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #285c53;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-icons a {
+      margin: 0 10px;
+      color: #f745d0;
+      font-size: 40px;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -31,13 +62,21 @@
   <div class="content">
     
     <!-- Adicione o conteúdo desejado aqui -->
-    <img src="curriculo.jpeg" width="1500" height="1700" alt="Minha Imagem">
+    <img src="curriculo2.jpeg" width="1500" height="1500" alt="Minha Imagem">
   
 
   </div>
   
-  <footer>
-    <p>Rodapé da página</p>
-  </footer>
+  <body>
+    <!-- Conteúdo da página -->
+    <center><h4>Entre em contato em uma das minhas redes sociais<p>clique em um dos incones abaixo</h4></center>
+    <div class="footer-icons">
+      
+      <a href="https://wa.me/11959834631" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/@silvalima" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/@jls202091" target="_blank"><i class="fab fa-instagram"></i></a>
+     
+    </div>
 </body>
 </html>
+
